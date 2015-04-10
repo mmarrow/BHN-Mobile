@@ -6548,6 +6548,17 @@ button.close {
   }
 }
 /* My Custom Styles */
+/* Navbar / Menu */
+.navbar .glyphicon {
+  line-height: 46px;
+}
+.navbar-brand {
+  padding: 0 15px;
+}
+.navbar-brand img {
+  max-width: 170px;
+}
+/* Styles below need encapsulation and LESS configuration many wont be needed */
 body {
   color: #373737;
 }
@@ -6564,9 +6575,9 @@ img {
   width: 100%;
   min-width: 100%;
 }
-.navbar-brand img {
-  max-width: 170px;
-}
+/*.navbar-brand img {
+	max-width: 170px;
+}*/
 .navbar {
   margin-bottom: 0;
 }
