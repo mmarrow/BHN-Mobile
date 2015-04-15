@@ -6549,138 +6549,42 @@ button.close {
 }
 /* My Custom Styles */
 /* Navbar / Menu */
-.navbar .glyphicon {
-  line-height: 46px;
+.navbar .nav-icons {
+  padding-right: 25px;
 }
-.navbar-brand {
+.navbar .nav-icons .glyphicon-search,
+.navbar .nav-icons .glyphicon-earphone {
+  line-height: 50px;
   padding: 0 15px;
 }
+.navbar .form-control {
+  width: 88%;
+  margin-right: 5px;
+}
+.navbar .dropdown-menu {
+  padding: 10px;
+  border-radius: 0;
+  width: 100%;
+}
+.navbar-brand {
+  padding: 4px 15px 0 15px;
+}
 .navbar-brand img {
-  max-width: 170px;
+  max-width: 140px;
 }
 /* Styles below need encapsulation and LESS configuration many wont be needed */
-body {
-  color: #373737;
-}
-body nav {
-  color: #888888;
-}
-a {
-  color: #0091ff;
-}
-h1 {
-  font-size: 30px;
-}
-img {
-  width: 100%;
-  min-width: 100%;
-}
-/*.navbar-brand img {
-	max-width: 170px;
-}*/
-.navbar {
-  margin-bottom: 0;
-}
-.carousel-control.left,
-.carousel-control.right {
-  background: none;
-}
-main {
-  margin: 40px 20px 0 20px;
-}
-main p {
-  margin: 0 20px 0 20px;
-}
-.btn {
-  margin: 20px 0;
-}
-.product-grid {
-  margin: 40px 0;
-}
-.product-grid img {
-  max-width: 160px;
-  margin-top: 10px;
-}
-.navbar-default .navbar-toggle {
-  border: none;
-}
-.btn-primary,
-.btn-primary:hover {
-  color: #373737;
-  background-color: #ffcb23;
-  border: none;
-  /*border-color: #2e6da4;*/
-}
-.btn-primary.outline,
-.btn-primary.outline:hover {
-  color: #373737;
-  background-color: #ffffff;
-  border: solid 1px #ffcb23;
-}
-.btn-default,
-.btn-default:hover {
-  color: #fff;
-  background-color: #1a2483;
-  border: none;
-}
-.links {
-  margin: 40px 0;
-}
-.links a {
-  color: #373737;
-}
-hr {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.links .glyphicon {
-  line-height: 39px;
-}
-/* TV Page Styles */
-.hero {
-  background: #1a2483;
-}
-.hero-caption {
-  background-color: #1a2483;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 10px 0 15px 0;
-}
-.hero h1 {
-  margin: 0;
-}
-.hero h1 span {
-  display: block;
-  font-size: 20px;
-  font-weight: 200;
-}
-.bundles ul {
-  padding-left: 0;
-}
-.bundles p > a {
-  font-size: 12px;
-}
-.bundle {
-  min-height: 410px;
-  text-align: center;
-}
-.bhtv,
-.tv-everywhere {
-  margin-bottom: 40px;
-}
-.app-stores {
-  padding: 20px 0 40px 0;
-}
+/*
 footer {
-  background-color: #eeeeee;
-  padding-bottom: 40px;
-  padding-top: 10px;
+	background-color: #eeeeee;
+	padding-bottom: 40px;
+	padding-top: 10px;
 }
 footer .legal-text p {
-  font-size: 12px;
-  padding: 0 20px;
+	font-size: 12px;
+	padding: 0 20px;
 }
 footer p:last-child {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
+*/
 /*# sourceMappingURL=bootstrap.css.map */
