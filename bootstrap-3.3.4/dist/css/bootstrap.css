@@ -6566,11 +6566,21 @@ button.close {
   border-radius: 0;
   width: 100%;
 }
+img {
+  display: block;
+  margin: 0 auto;
+}
 .navbar-brand {
   padding: 4px 15px 0 15px;
 }
 .navbar-brand img {
   max-width: 140px;
+}
+h3 span {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
 }
 /* Styles below need encapsulation and LESS configuration many wont be needed */
 /*
