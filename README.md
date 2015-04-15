@@ -17,8 +17,8 @@ How to add custom css to framework:
 	 
 
 
-*** I am using Owl Carousel ***
--------------------------------
+Owl Carousel Integration
+------------------------
 
 http://owlgraphic.com/owlcarousel/
 This is a touch enabled cross browser friendly image carousel
