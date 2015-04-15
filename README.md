@@ -3,7 +3,7 @@ Mobile site for Bright House Networks. This will be used to build from a mobile 
 
 
 How to add custom css to framework:
-===================================
+-----------------------------------
 
 1. Create custom.less file
 
@@ -18,7 +18,7 @@ How to add custom css to framework:
 
 
 *** I am using Owl Carousel ***
-===============================
+-------------------------------
 
 http://owlgraphic.com/owlcarousel/
 This is a touch enabled cross browser friendly image carousel
