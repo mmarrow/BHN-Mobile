@@ -13,3 +13,18 @@ How to add custom css to framework:
 
 4. Use grunt on command line to compile into bootstrap.min.css
 	 <code>grunt watch</code>	
+	 
+
+
+*** I am using Owl Carousel ***
+
+http://owlgraphic.com/owlcarousel/
+This is a touch enabled cross browser friendly image carousel
+
+- Core files are added to bootstrap.css via an @import in bootstrap.less at less/bootstrap.less
+
+- The less partial is owl-carousel.less at less/owl-carousel.less
+
+- Custom control css is located in custom.less at less/custom.less
+
+- Custom control JS is located in custom.js at dist/js/custom.js
