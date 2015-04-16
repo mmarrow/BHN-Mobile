@@ -37,3 +37,5 @@ Added block-grid.less partial component
 ---------------------------------------
 
 https://gist.github.com/ChrisTM/8346916
+
+- The less partial is block-grid.less at less/block-grid.less
