@@ -30,3 +30,10 @@ This is a touch enabled cross browser friendly image carousel
 - Custom control css is located in custom.less at less/custom.less
 
 - Custom control JS is located in custom.js at dist/js/custom.js
+
+
+
+Added block-grid.less partial component
+---------------------------------------
+
+https://gist.github.com/ChrisTM/8346916
