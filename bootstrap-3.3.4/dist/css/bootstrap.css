@@ -7073,6 +7073,10 @@ h3 span {
   line-height: 18px;
   margin: 0;
 }
+/* Product Grid */
+.product-grid h4 {
+  text-align: center;
+}
 /* Owl Carousel */
 #owl-demo .item img {
   display: block;
