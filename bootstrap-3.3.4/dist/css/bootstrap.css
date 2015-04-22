@@ -7083,6 +7083,106 @@ h3 span {
   width: 100%;
   height: auto;
 }
+/* ------ Button Primary ------ */
+.btn-primary,
+.btn-primary:link,
+a.btn-primary:visited {
+  padding: 8px 10px;
+  background: #ffc600;
+  background-image: -webkit-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -moz-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -ms-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -o-linear-gradient(top, #ffc600, #ffb200);
+  background-image: linear-gradient(to bottom, #ffc600, #ffb200);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+  height: 34px;
+  color: #373737;
+  font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  /*-pie-background: linear-gradient(#ffc600,#ffb200);
+	behavior: url(main/css/pie/PIE.htc);*/
+  display: block;
+}
+a.btn-primary:hover {
+  background: #fae062;
+  background-image: -webkit-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -moz-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -ms-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -o-linear-gradient(top, #fae062, #f8d44d);
+  background-image: linear-gradient(to bottom, #fae062, #f8d44d);
+  /*-pie-background: linear-gradient(#fae062,#f8d44d);
+  behavior: url(main/css/pie/PIE.htc);*/
+}
+/* ------ Button Primary Outline ------ */
+.btn-primary-ol,
+.btn-primary-ol:link,
+a.btn-primary-ol:visited {
+  padding: 6px 10px;
+  border: 2px solid #ffb300;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+  height: 30px;
+  letter-spacing: 1px;
+  font: 16px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #373737;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+a.btn-primary-ol:hover {
+  background: #ffb300;
+}
+/* ------ Button Secondary ------ */
+.btn-secondary,
+.btn-secondary:link,
+a.btn-secondary:visited {
+  padding: 8px 10px;
+  background: #1f2c9e;
+  background-image: -webkit-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -moz-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -ms-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -o-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: linear-gradient(to bottom, #1f2c9e, #19227c);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+  height: 34px;
+  font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  /*-pie-background: linear-gradient(#1f2c9e,#19227c);
+	behavior: url(main/css/pie/PIE.htc);*/
+  display: block;
+}
+a.btn-secondary:hover {
+  background: #356abf;
+  background-image: -webkit-linear-gradient(top, #356abf, #2954a9);
+  background-image: -moz-linear-gradient(top, #356abf, #2954a9);
+  background-image: -ms-linear-gradient(top, #356abf, #2954a9);
+  background-image: -o-linear-gradient(top, #356abf, #2954a9);
+  background-image: linear-gradient(to bottom, #356abf, #2954a9);
+  -pie-background: linear-gradient(#356abf, #2954a9);
+  behavior: url(main/css/pie/PIE.htc);
+}
 /* Styles below need encapsulation and LESS configuration many wont be needed */
 /*
 footer {
