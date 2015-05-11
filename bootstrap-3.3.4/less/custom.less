@@ -14,6 +14,7 @@ h1 {
 	background: #19237e;
 	padding: 10px 0;
 	letter-spacing: 1px;
+	margin: 0;
 	span {
 		display: block;
 		font-size: 18px;
@@ -28,6 +29,34 @@ h3 span {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: normal;
+}
+
+header {
+	img, #owl-demo {
+		margin: 0;
+	}
+}
+
+.feature {
+	margin-bottom: 40px;
+	ul {
+		text-align: center;
+		padding-left: 0;
+	}
+	li {
+		list-style: none;
+	}
+}
+
+.packages {
+	margin: 40px 0 40px 0;
+}
+
+.security .feature {
+	margin-top: 40px;
+}
+.phone .feature {
+	margin: 40px 0 0 0;
 }
 
 
@@ -60,6 +89,15 @@ h3 span {
 			max-width: 140px;
 		}
 }
+
+.nav > li:hover {
+		background-color: #19237e;
+}
+.navbar-default .navbar-nav > li > a:hover {
+		color: #fff;
+}
+
+
 
 /* Links Section */
 .links {
@@ -184,6 +222,7 @@ a.btn-secondary:hover {
   -pie-background: linear-gradient(#356abf,#2954a9);
   behavior: url(main/css/pie/PIE.htc);
 }
+
 
 
 /* Styles below need encapsulation and LESS configuration many wont be needed */

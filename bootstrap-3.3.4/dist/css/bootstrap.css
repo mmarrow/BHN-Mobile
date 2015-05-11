@@ -3421,7 +3421,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #000000;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -4048,7 +4048,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -7029,6 +7029,7 @@ h1 {
   background: #19237e;
   padding: 10px 0;
   letter-spacing: 1px;
+  margin: 0;
 }
 h1 span {
   display: block;
@@ -7042,6 +7043,29 @@ h3 span {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
+}
+header img,
+header #owl-demo {
+  margin: 0;
+}
+.feature {
+  margin-bottom: 40px;
+}
+.feature ul {
+  text-align: center;
+  padding-left: 0;
+}
+.feature li {
+  list-style: none;
+}
+.packages {
+  margin: 40px 0 40px 0;
+}
+.security .feature {
+  margin-top: 40px;
+}
+.phone .feature {
+  margin: 40px 0 0 0;
 }
 /* Navbar / Menu */
 .navbar .nav-icons {
@@ -7066,6 +7090,12 @@ h3 span {
 }
 .navbar-brand img {
   max-width: 140px;
+}
+.nav > li:hover {
+  background-color: #19237e;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
 }
 /* Links Section */
 .links p {
