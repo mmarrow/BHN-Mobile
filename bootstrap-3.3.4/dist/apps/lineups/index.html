@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Bright House</title>
+<link rel="stylesheet" href="http://applications.brighthouse.com/mobile/styles/jquery.mobile-1.3.1.min.css" />
+<link rel="stylesheet" href="http://applications.brighthouse.com/mobile/styles/custom.css" />
+<script type="text/javascript" src="http://applications.brighthouse.com/mobile/scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://applications.brighthouse.com/mobile/scripts/jquery.mobile-1.3.1.min.js"></script>	    
+<script type="text/javascript" src="scripts/ChannelLineups.js"></script>
+</head>
+
+<body>
+<div data-role="page">
+
+<!-- Start Header -->
+<div data-role="header" data-theme="j" id="myanchor">
+<div class="logo-header" data-theme="j">
+<div class="header-number"><a href="tel:1-855-222-0102" onclick="javascript:spotone('MBL');" data-rel="dialog" data-transition="pop" id="callusbtntop">1-855-222-0102</a></div>
+<div class="clear"></div>
+
+<div class="tab-common-styles tab-current-on">
+<a href="../index.html" data-transition="none" class="tab-black-text" data-ajax="false" id="viewmobile">
+Current Customers</a>
+</div>
+
+<div class="tab-common-styles tab-new-off">
+<a href="../offers.html" data-transition="none" class="tab-white-text" data-ajax="false" id="viewmobilenew">
+New Customers</a>
+</div>
+
+<div class="clear"></div>
+</div></div><!-- CLOSE Header -->
+		
+<div data-role="content">		
+<div class="insidepagetitles">Search Channel Lineups</div>
+<div id="Search">
+<div id="SearchInstructions">
+<p>Discover all the entertainment available at your fingertips at any time.</p>
+</div>
+		
+<div id="SearchCriteria">
+<label class="ui-input-text" for="ZipCode">Zip Code (required):</label>
+<input id="ZipCode" type="text" value="" /><br />
+<label class="ui-input-text" for="SearchText">Channel Name or #:</label>
+<input type="text" id="SearchText" /><br />
+<label for="Remember">Remember Zip Code:</label>
+<select id="Remember" data-role="slider" data-theme="b">
+<option value="off">Off</option>
+<option value="on">On</option>
+</select><br /><br />
+</div>
+		
+<button id="SubmitButton" class="ui-btn-hidden" data-theme="b" type="submit" aria-disabled="false" onclick="GetLineupSearchResults();">Submit</button>
+</div>
+	
+<div data-role="content" role="main">
+<div id="SearchResults"></div>
+</div>
+	
+</div><!-- /content -->
+</div><!-- /page -->
+
+<img src="https://brighthouse.122.2o7.net/b/ss/brighthouseredesign/5/H.23.6--WAP?pageName=" height="5" width="5" border="0" alt="" />
+<!-- End SiteCatalyst code version: H.23.6. -->
+
+</body>
+</html>
