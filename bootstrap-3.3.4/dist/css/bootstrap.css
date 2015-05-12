@@ -3421,7 +3421,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #000000;
+  background-color: #f8f8f8;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -7077,13 +7077,18 @@ header #owl-demo {
   padding: 0 15px;
 }
 .navbar .form-control {
-  width: 88%;
+  width: 100%;
   margin-right: 5px;
 }
+.navbar ul.dropdown-menu {
+  border-style: none;
+  border-top: 1px solid #cccccc;
+}
 .navbar .dropdown-menu {
-  padding: 10px;
+  padding: 0 10px;
   border-radius: 0;
   width: 100%;
+  margin: 0;
 }
 .navbar-brand {
   padding: 4px 15px 0 15px;
@@ -7096,6 +7101,9 @@ header #owl-demo {
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
+}
+.navbar-default .navbar-form {
+  border-style: none;
 }
 /* Links Section */
 .links p {
