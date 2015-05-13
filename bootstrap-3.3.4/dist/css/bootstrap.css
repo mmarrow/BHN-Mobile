@@ -7108,6 +7108,20 @@ header #owl-demo {
 .navbar-default .navbar-form {
   border-style: none;
 }
+footer {
+  background-color: #eeeeee;
+  padding-bottom: 40px;
+}
+footer hr {
+  border: 1px solid #FFB300;
+}
+footer .legal-text {
+  font-size: 12px;
+}
+footer .legal-text p:last-child {
+  text-align: center;
+  margin: 20px 0;
+}
 /* Links Section */
 .links p {
   font-size: 18px;
@@ -7229,18 +7243,7 @@ a.btn-secondary:hover {
 }
 /* Styles below need encapsulation and LESS configuration many wont be needed */
 /*
-footer {
-	background-color: #eeeeee;
-	padding-bottom: 40px;
-	padding-top: 10px;
-}
-footer .legal-text p {
-	font-size: 12px;
-	padding: 0 20px;
-}
-footer p:last-child {
-	padding-bottom: 20px;
-}
+
 */
 /* 
  * 	Core Owl Carousel CSS File
