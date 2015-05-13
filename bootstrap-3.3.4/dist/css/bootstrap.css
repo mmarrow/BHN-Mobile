@@ -7044,8 +7044,7 @@ h3 span {
   line-height: 1.5;
   font-weight: normal;
 }
-header img,
-header #owl-demo {
+header img {
   margin: 0;
 }
 .feature {
@@ -7123,16 +7122,26 @@ footer .legal-text p:last-child {
   margin: 20px 0;
 }
 /* Links Section */
+.links {
+  margin-bottom: 40px;
+}
 .links p {
   font-size: 18px;
   line-height: 18px;
   margin: 0;
 }
 /* Product Grid */
+.product-grid {
+  margin-bottom: 10px;
+}
 .product-grid h4 {
   text-align: center;
+  font-size: 16px;
 }
 /* Owl Carousel */
+#owl-demo {
+  margin: 0 0 20px 0;
+}
 #owl-demo .item img {
   display: block;
   width: 100%;
