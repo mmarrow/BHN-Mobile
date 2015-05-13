@@ -1,0 +1,610 @@
+/* New custom styles for BHN branding - rlehman 10/10/2012
+-----------------------------------------------------------------------------------------------------------*/
+
+.clear { 
+clear:both;
+}
+
+/* ------------------ Share Your Story CSS moved from page to stylesheet -----------------------*/
+#MobileShareStory label{
+margin-top: 15px;
+}
+#MobileShareStory label.error {
+margin-left: 7px;
+width: auto;
+display: inline;
+color: #ff0000;
+}
+
+/* ------------------ Share Your Story CSS moved from page to stylesheet -----------------------*/
+#MobileContest label{
+margin-top: 15px;
+}
+        
+#MobileContest label.error {
+margin-left: 7px;
+width: auto;
+display: inline;
+color: #ff0000;
+}
+
+.sweepsimage{
+margin:0px;
+padding:0px;
+}      
+.sweepsimage img{
+width: 100%;
+}
+
+
+/* ------------------ OLD HEADER CODE -----------------------*/
+.squirkel { 
+background: url("../images/squirkel.png") 50% 22% no-repeat; 
+height:38px; 
+}
+
+.squirkel h1 { 
+color:#fff;
+margin: 0; 
+padding: 0; 
+font-size: 16px; 
+display: inline-block;
+width:100%;
+text-align:center;
+padding-top:9px;
+}
+
+/* ------------------ NEW HEADER CODE -----------------------*/
+
+.insidepagetitles{
+font-size: 18px;
+line-height:20px;
+font-weight:bold;
+color:#4444; /* or #0751b7 */
+text-align:center;
+margin:0px 0px -10px 0px;
+}
+.insidepagetitles-small{
+font-size: 18px;
+line-height:20px;
+font-weight:bold;
+color:#4444; /* or #0751b7 */
+text-align:center;
+margin:-7px 0px 20px 0px;
+}
+
+.logo-header { 
+background: url("../images/brighthouse-logo.png") 10px 5px no-repeat; 
+height:80px; 
+}
+
+.header-number .ui-link{ 
+color:#cbcaca;
+font-size: 17px; 
+font-weight:bold;
+margin: 0; 
+padding: 0; 
+display: inline-block;
+width:100%;
+/* padding-left:188px;  REMOVED */
+text-shadow:none;
+
+width:97%; /* 3% pulled for right padding */
+padding:14px 0px 0px 0px;
+text-align:right;
+}
+
+
+/*  New Header with No Tabs Style - Spanish only so far rlehman 10-10-2012 */
+.no-tabs-header{
+height:53px;
+}
+
+/*  all Tab Code */
+.tab-common-styles{
+border:0px black solid;
+font-size:13px;
+line-height:13px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+text-shadow:none;
+width:145px;
+height:22px; /* was 30px */
+-webkit-border-radius:6px 6px 0px 0px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+border-radius:6px 6px 0px 0px;         /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+float:left;
+padding-top:8px;
+display:block;
+}
+
+.tab-black-text {color:black !important;}
+.tab-white-text {color:white !important;}
+
+
+
+/* ---------- CURRENT CUSTOMERS ----------- */
+/*  Off Tab Current - LEFT OFF */
+.tab-current-off{margin:15px 5px -7px 10px;color:white;background-color:#747474;} /* OFF CODE */
+.tab-current-off a:link {color:white; text-decoration:none;}
+.tab-current-off a:hover {color:#cccccc;}
+/*  On Tab New  - RIGHT ON */
+.tab-new-on {margin:15px 0px -7px 5px;color:black;background-color:#f0f0f0;} /* ON CODE */
+.tab-new-on a:link {color:black; text-decoration:none;}
+.tab-new-on a:hover {color:#999999;}
+/*  On Tab New  - RIGHT ON LANDING */
+.tab-new-on-landing {margin:15px 0px -7px 5px;color:black;background-color:white;} /* ON CODE LANDING PAGES */
+.tab-new-on-landing a:link {color:black; text-decoration:none;}
+.tab-new-on-landing a:hover {color:#999999;}
+
+/* ---------- NEW CUSTOMERS ----------- */
+/*  On Tab Current - LEFT ON */
+.tab-current-on{margin:15px 5px -7px 10px;color:black;background-color:#f0f0f0;} /* ON CODE */
+.tab-current-on a:link {color:black; text-decoration:none;}
+.tab-current-on a:hover {color:#999999;}
+/*  On Tab Current  - LEFT ON LANDING */
+.tab-current-on-landing {margin:15px 5px -7px 10px;color:black;background-color:white;} /* ON CODE LANDING PAGES */
+.tab-current-on-landing a:link {color:black; text-decoration:none;}
+.tab-current-on-landing a:hover {color:#999999;}
+/*  Off Tab New  - RIGHT OFF */
+.tab-new-off {margin:15px 0px -7px 5px;color:white;background-color:#747474;} /* OFF CODE */
+.tab-new-off a:link {color:white; text-decoration:none;}
+.tab-new-off a:hover {color:#cccccc;}
+
+
+
+
+
+/* New Landing Page Button Styles to remove top border on the first button to work with the new tab styles - Rlehman 10/10/2012 */
+.first-landingpagebtn{
+border-top:1px solid white;
+}
+
+/* New "j" style for New Tab Header - Rlehman 10/10/2012 */
+.ui-bar-j {
+border: 1px solid #011b4b;
+background: #011b4b;
+color:#cbcaca;
+text-shadow: 0 1px 0 #000;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#0751b7), to(#011b4b)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #0751b7, #011b4b); /* Chrome 10+, Saf5.1+ */
+background-image:    -moz-linear-gradient(top, #0751b7, #011b4b); /* FF3.6 */
+background-image:     -ms-linear-gradient(top, #0751b7, #011b4b); /* IE10 */
+background-image:      -o-linear-gradient(top, #0751b7, #011b4b); /* Opera 11.10+ */
+background-image:         linear-gradient(top, #0751b7, #011b4b);
+
+border:0px solid white;
+}
+.ui-bar-j,
+.ui-bar-j input,
+.ui-bar-j select,
+.ui-bar-j textarea,
+.ui-bar-j button {
+font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-j .ui-link-inherit {
+color:#cbcaca;
+}
+
+
+/* Styles changed in the jQuery mobile CSS by JR.
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-br {
+border-bottom: rgb(130,130,130);
+border-bottom: rgba(130,130,130,.3);
+border-bottom-width: 1px;
+border-bottom-style: none; /* this was commented out by JR as -- border-bottom-style: solid;*/
+}
+
+
+/* ===== These styles has changes to entire style ===== */
+.ui-bar-b {
+	border: 0px solid 		#456f9a; /* this was commented out by JR as -- border: 1px solid #456f9a;*/
+	background: 			#021948;
+	color: 					#fff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #254f7a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0852b9), to(#021948)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #0852b9, #021948); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #0852b9, #021948); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #0852b9, #021948); /* IE10 */
+	background-image:      -o-linear-gradient(top, #0852b9, #021948); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #0852b9, #021948);
+}
+.ui-btn-up-b {
+	border: 1px solid 		#ffaf24;
+	background: 			#2567ab;
+	font-weight: bold;
+	color: 					#6a4b00;
+	text-shadow: 0 -1px 1px #dfa10c;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcb23), to(#ffaa23)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #ffcb23, #ffaa23); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #ffcb23, #ffaa23); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #ffcb23, #ffaa23); /* IE10 */
+	background-image:      -o-linear-gradient(top, #ffcb23, #ffaa23); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #ffcb23, #ffaa23);
+}
+.ui-btn-hover-b {
+	border: 1px solid 		#fbdc74;
+	background: 			#f9d758;
+	font-weight: bold;
+	color: 					#8b6202;
+	text-shadow: 0 -1px 1px #eecf54;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fae67e), to(#f9d758)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fae67e, #f9d758); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fae67e, #f9d758); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fae67e, #f9d758); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fae67e, #f9d758); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fae67e, #f9d758);
+}
+.ui-btn-down-b {
+	border: 1px solid 		#fbdc74;
+	background: 			#4b88b6;
+	font-weight: bold;
+	color: 					#8b6202;
+	text-shadow: 0 -1px 1px #eecf54;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fae67e), to(#f9d758)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fae67e, #f9d758); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fae67e, #f9d758); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fae67e, #f9d758); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fae67e, #f9d758); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fae67e, #f9d758);
+}
+.ui-body-c {
+	border: 1px solid 		#B3B3B3;
+	color: 					#333333;
+	text-shadow: 0 1px 0 	#fff;
+	background: 			#f0f0f0;
+ /* this set of 6 BG styles were all commented out by JR -- Instead Changed to none by RL */
+background-image: -webkit-gradient(none);
+background-image: -webkit-linear-gradient(none);
+background-image:    -moz-linear-gradient(none); 
+background-image:     -ms-linear-gradient(none); 
+background-image:      -o-linear-gradient(none);
+background-image:         linear-gradient(none);
+background-image: none !important; /* added this one just in case - Not sure if these changes will work or not */
+}
+.ui-icon {
+	background: 						#666;
+	background: 						rgba(0,0,0,.4);
+	background-image: url("../images/icons-18-white.png");
+	background-repeat: no-repeat;
+	-moz-border-radius: 				9px;
+	-webkit-border-radius: 				9px;
+	border-radius: 						9px;
+}
+.ui-icon-alt {
+	background: 						#fff;
+	background: 						rgba(255,255,255,.3);
+	background-image: url("../images/icons-18-black.png");
+	background-repeat: no-repeat;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 240dpi) {
+	
+	.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
+	.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
+	.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
+	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-search, 
+	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
+		background-image: url("../images/icons-36-white.png");
+		-moz-background-size: 776px 18px;
+		-o-background-size: 776px 18px;
+		-webkit-background-size: 776px 18px;
+		background-size: 776px 18px;
+	}
+	.ui-icon-alt {
+		background-image: url("../images/icons-36-black.png");
+	}
+}
+
+.ui-icon-searchfield {
+	background-image: url("../images/icon-search-black.png");
+	background-size: 16px 16px;
+}
+
+/* loading icon */
+.ui-icon-loading {
+	background-image: url("../images/ajax-loader.png");
+	width: 40px;
+	height: 40px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background-size: 35px 35px;
+}
+.ui-btn-corner-all {
+	-moz-border-radius: 				.5em;
+	-webkit-border-radius: 				.5em;
+	border-radius: 						.5em;
+}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li { padding: .7em 75px .7em 15px; display: block; }
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb  { min-height: 20px; padding-left: 65px; }
+.ui-li-has-icon .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-icon {  min-height: 20px; padding-left: 40px; }
+.ui-li-heading { font-size: 16px; font-weight: bold; display: block; margin: .6em 0; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  }
+.ui-li-desc {  font-size: 12px; font-weight: normal; display: block; margin: -.5em 0 .6em; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+.ui-li-thumb, .ui-li-icon { position: absolute; left: 1px; top: 0; max-height: 80px; max-width: 80px; padding: 18px 0px 0px 13px;}
+.ui-li-icon { max-height: 40px; max-width: 40px; left: 10px; top: .9em; }
+.ui-li-thumb, .ui-li-icon, .ui-li-content { float: left; margin-right: 10px; }
+
+
+/* End jQuery CSS Changes By JR ----------------------------------------------------------------------------*/
+
+
+
+
+
+/* F - New theme styles for ad banners (orange and yellow blend) - JR
+-----------------------------------------------------------------------------------------------------------*/
+.ui-bar-f {
+	border: 1px solid 		#75990D;
+	background: 			#9ccd12;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#508b08), to(#9ccd12)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #508b08, #9ccd12); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #508b08, #9ccd12); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #508b08, #9ccd12); /* IE10 */
+	background-image:      -o-linear-gradient(top, #508b08, #9ccd12); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #508b08, #9ccd12);
+}
+.ui-bar-f,
+.ui-bar-f input,
+.ui-bar-f select,
+.ui-bar-f textarea,
+.ui-bar-f button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-f .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-f .ui-link 508b08
+.ui-body-f {
+	border: 1px solid 		#75990D;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background: 			#faeb9e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#faeb9e)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fff, #faeb9e); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fff, #faeb9e); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fff, #faeb9e); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fff, #faeb9e); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fff, #faeb9e);
+}
+.ui-body-f,
+.ui-body-f input,
+.ui-body-f select,
+.ui-body-f textarea,
+.ui-body-f button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-body-f .ui-link-inherit 508b08
+.ui-body-f .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+.ui-btn-up-f {
+	border: 1px solid 		#FED073;
+	background: 			#FF3F01;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FDA51F), to(#FF3F01)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FDA51F, #FF3F01); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FDA51F, #FF3F01); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FDA51F, #FF3F01); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FDA51F, #FF3F01); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FDA51F, #FF3F01);
+}
+.ui-btn-up-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-f {
+	border: 1px solid 		#FED073;
+	background: 			#FDA51F;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF3F01), to(#FDA51F)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FF3F01, #FDA51F); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FF3F01, #FDA51F); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FF3F01, #FDA51F); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FF3F01, #FDA51F); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FF3F01, #FDA51F);
+}
+
+.ui-btn-hover-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-f {
+	border: 1px solid 		#FED073;
+	background: 			#FDA51F;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF3F01), to(#FDA51F)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FF3F01, #FDA51F); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FF3F01, #FDA51F); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FF3F01, #FDA51F); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FF3F01, #FDA51F); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FF3F01, #FDA51F);
+}
+.ui-btn-down-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-f,
+.ui-btn-hover-f,
+.ui-btn-down-f {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+
+/* G - New theme styles for ad banners (green blend) - JR
+-----------------------------------------------------------------------------------------------------------*/
+.ui-bar-g {
+	border: 1px solid 		#75990D;
+	background: 			#9ccd12;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#508b08), to(#9ccd12)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #508b08, #9ccd12); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #508b08, #9ccd12); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #508b08, #9ccd12); /* IE10 */
+	background-image:      -o-linear-gradient(top, #508b08, #9ccd12); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #508b08, #9ccd12);
+}
+.ui-bar-g,
+.ui-bar-g input,
+.ui-bar-g select,
+.ui-bar-g textarea,
+.ui-bar-g button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-g .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-g .ui-link 508b08
+.ui-body-g {
+	border: 1px solid 		#75990D;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background: 			#faeb9e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#faeb9e)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fff, #faeb9e); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fff, #faeb9e); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fff, #faeb9e); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fff, #faeb9e); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fff, #faeb9e);
+}
+.ui-body-g,
+.ui-body-g input,
+.ui-body-g select,
+.ui-body-g textarea,
+.ui-body-g button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-body-g .ui-link-inherit 508b08
+.ui-body-g .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+.ui-btn-up-g {
+	border: 1px solid 		#75990D;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#508b08), to(#9ccd12)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #508b08, #9ccd12); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #508b08, #9ccd12); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #508b08, #9ccd12); /* IE10 */
+	background-image:      -o-linear-gradient(top, #508b08, #9ccd12); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #508b08, #9ccd12);
+}
+.ui-btn-up-g a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-g {
+	border: 1px solid 		#75990D;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9ccd12), to(#508b08)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #9ccd12, #508b08); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #9ccd12, #508b08); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #9ccd12, #508b08); /* IE10 */
+	background-image:      -o-linear-gradient(top, #9ccd12, #508b08); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #9ccd12, #508b08);
+}
+
+.ui-btn-hover-g a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-g {
+	border: 1px solid 		#75990D;
+	background: 			#508b08;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9ccd12), to(#508b08)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #9ccd12, #508b08); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #9ccd12, #508b08); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #9ccd12, #508b08); /* IE10 */
+	background-image:      -o-linear-gradient(top, #9ccd12, #508b08); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #9ccd12, #508b08);
+}
+.ui-btn-down-g a.ui-link-inherit {
+	color: #fff;
+}
+.ui-btn-up-g,
+.ui-btn-hover-g,
+.ui-btn-down-g {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+
+/* UI Block styles for lineup results display - CMD   */
+
+.ui-block-y {
+    text-align: center;
+    width: 20%;
+}
+
+.ui-block-y, .ui-block-z {
+    border: 0 none;
+    float: left;
+    margin: 0;
+    min-height: 1px;
+    padding: 3px 0 0;
+}
+
+.ui-block-z {
+width: 80%;
+}
+
+
+/* -------------------NEW CSS for RDVR Sunset Message Page------------------------------ */
+
+.offerpagecontainer.noyellowband{
+padding:10px;
+background: url("../images/container-bg.png") repeat-x scroll 0 0 #FFFFFF;
+background-image:none;
+border: 2px solid #999999;
+border-radius: 10px;
+color: #333333;
+font-size: 12px;
+line-height: 16px;
+margin: 10px;
+padding: 10px 0 10px 10px;
+}
+.offerpagecontainer .rdvr-message-header{
+font-size:20px;
+line-height:24px;
+text-align:center;
+font-weight:bold;
+color:#19237e;
+}
+.offerpagecontainer .rdvr-message-block{
+font-size:15px;
+line-height:18px;
+text-align:center;
+padding:0px 10px;
+}
+.offerpagecontainer .rdvr-message-block a:link,
+.offerpagecontainer .rdvr-message-block a:visited{color:#0091FF;text-decoration:none;font-weight:normal;}
+.offerpagecontainer .rdvr-message-block a:hover{text-decoration:underline;}
+.rdvr-message-block p{margin:3px 0px;}
+.rdvr-message-block p.addmargin{margin:10px 0px;}
+
+/*
+#textapplink-ios{display:block}
+#textapplink-android{display:block}
+#bhtvapp-ios{display:block}
+#bhtvapp-android{display:block}
+*/
