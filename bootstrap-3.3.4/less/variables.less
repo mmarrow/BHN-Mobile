@@ -31,9 +31,11 @@
 @text-color:            @gray-dark;
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            #0091ff; // used to be @brand-primary
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 15%);
+
+@link-hover-color:      @link-color; // Used to be darken(@link-color, 15%)
+
 //** Link hover decoration.
 @link-hover-decoration: underline;
 
