@@ -7066,7 +7066,8 @@ header img {
 .phone .feature {
   margin: 40px 0 0 0;
 }
-.phone .well {
+.phone .well,
+.tv .well {
   border-radius: 0;
 }
 /* Navbar / Menu */
@@ -7263,10 +7264,98 @@ a.btn-secondary:hover {
   -pie-background: linear-gradient(#356abf, #2954a9);
   behavior: url(main/css/pie/PIE.htc);
 }
+.price-point {
+  position: relative;
+  font: 40px/36px ITCFranklinGothic, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 50px;
+}
+.price-point > span:first-child {
+  font-size: 30px;
+  vertical-align: text-top;
+}
+.price-point > span:last-child {
+  font-size: 12px;
+}
+.bundle {
+  background: #e3e3e3;
+  padding-bottom: 20px;
+  margin: 20px 0;
+}
+.bundle ul li {
+  list-style: none;
+  margin: 10px;
+}
 /* Styles below need encapsulation and LESS configuration many wont be needed */
-/*
-
-*/
+/*******************
+* Bundle Component *
+********************/
+.bundle-header h3 {
+  float: left;
+}
+.bundle-header p {
+  float: right;
+  margin-top: 5px;
+}
+/* Section - Bundle Title */
+.bundle-ribbon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.bundle-title {
+  position: relative;
+  background: #19237E;
+  min-height: 70px;
+  padding: 5px 20px 20px 20px;
+}
+.bundle-title h3 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  z-index: 10000;
+  position: relative;
+}
+.bundle-title p {
+  color: #fff;
+  text-align: center;
+}
+.bundle-speed {
+  background: #19237E;
+  padding: 10px;
+  min-height: 40px;
+  border-radius: 50%;
+  min-width: 90px;
+  min-height: 90px;
+  position: absolute;
+  top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  margin-left: 31.691%;
+  line-height: 1.1;
+}
+.bundle-speed span {
+  display: block;
+  font-size: 10px;
+}
+.bundle-features {
+  margin: 0 20px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.bundle-features ul {
+  padding: 15px 15px 0 15px;
+}
+.bundle-cta {
+  margin: 0 20px;
+  margin-top: 40px;
+}
 /* 
  * 	Core Owl Carousel CSS File
  *	v1.3.3
