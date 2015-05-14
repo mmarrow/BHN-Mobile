@@ -7047,14 +7047,14 @@ h3 span {
 header img {
   margin: 0;
 }
-.feature {
+.phone .feature {
   margin-bottom: 40px;
 }
-.feature ul {
+.phone .feature ul {
   text-align: center;
   padding-left: 0;
 }
-.feature li {
+.phone .feature li {
   list-style: none;
 }
 .packages {
