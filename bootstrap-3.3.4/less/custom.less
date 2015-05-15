@@ -35,7 +35,7 @@ header img  {
 		margin: 0;
 }
 
-.phone .feature {
+#phone .feature {
 	margin-bottom: 40px;
 	ul {
 		text-align: center;
@@ -53,10 +53,10 @@ header img  {
 .security .feature {
 	margin-top: 40px;
 }
-.phone .feature {
+#phone .feature {
 	margin: 40px 0 0 0;
 }
-.phone .well,
+#phone .well,
 .tv .well {
 	border-radius: 0;
 }
@@ -167,6 +167,24 @@ thead {
 	}
 }
 
+#phone .accordion .panel {
+	margin-bottom: 40px;
+}
+#phone .accordion p.panel-title {
+	font-size: 13px;
+	color: #0091ff;
+}
+#phone .panel-body {
+	font-size: 12px;
+}
+#phone .accordion hr {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#phone .accordion h4 {
+	color: #19237e;
+}
+
 /* Custom BHN button styles */
 .btn-primary,
 .btn-primary-ol,
@@ -273,9 +291,10 @@ a.btn-secondary:hover {
 }
 
 .price-point {
-    position: relative;
-    font: 40px/36px ITCFranklinGothic,Arial,Helvetica,sans-serif;
-	margin:0; padding-top:50px;
+  position: relative;
+  font: 40px/36px;
+	margin:0;
+	padding-top:50px;
 }
 
 .price-point > span:first-child {
@@ -283,6 +302,17 @@ font-size:30px; vertical-align:text-top;
 }
 .price-point > span:last-child {
 	font-size:12px;
+}
+
+.phone-price {
+	position: relative;
+  font-size: 22px;
+	line-height: 12px;
+	margin:0;
+	margin-bottom: 10px;
+}
+.phone-price span {
+	font-size: 12px;
 }
 
 .bundle {

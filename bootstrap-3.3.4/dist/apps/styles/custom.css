@@ -608,3 +608,8 @@ padding:0px 10px;
 #bhtvapp-ios{display:block}
 #bhtvapp-android{display:block}
 */
+
+div.app-header a > img {
+	display: block;
+	margin: 0 auto;
+}
