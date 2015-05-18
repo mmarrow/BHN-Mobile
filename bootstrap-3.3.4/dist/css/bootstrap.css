@@ -7199,7 +7199,7 @@ td {
   margin-bottom: 40px;
 }
 #phone .accordion p.panel-title,
-#tv .accordion a {
+#tv .accordion .panel-title > a {
   font-size: 13px;
   color: #0091ff;
 }
@@ -7469,6 +7469,15 @@ div.app-links {
 }
 .app-grid {
   text-align: center;
+}
+.sports-packages img {
+  max-height: 80px;
+}
+.panel-default .btn-primary {
+  margin-top: 15px;
+}
+.secondary-text {
+  font-size: 12px;
 }
 /* 
  * 	Core Owl Carousel CSS File
