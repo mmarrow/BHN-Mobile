@@ -7188,6 +7188,13 @@ td {
   width: 100%;
   height: auto;
 }
+#phone header {
+  margin-bottom: 0;
+}
+#phone .promo ul {
+  text-align: center;
+  list-style: none;
+}
 #phone .accordion .panel {
   margin-bottom: 40px;
 }
@@ -7200,8 +7207,8 @@ td {
   font-size: 12px;
 }
 #phone .accordion hr {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+  border-color: #19237e;
 }
 #phone .accordion h4 {
   color: #19237e;
