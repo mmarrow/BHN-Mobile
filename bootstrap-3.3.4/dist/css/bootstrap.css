@@ -7207,12 +7207,12 @@ header {
 #phone .accordion h4 {
   color: #19237e;
 }
-#phone .promo img {
-  max-width: 60px;
-}
-#phone .promo img.phone-icon {
+#phone .well img.icon {
   max-width: 100px;
   margin-bottom: 10px;
+}
+#phone img.icon {
+  max-width: 60px;
 }
 /* Home Security */
 /* App Center */
@@ -7262,6 +7262,11 @@ td {
 /* Owl Carousel */
 #owl-demo {
   margin: 0;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 /* Custom BHN button styles */
 .btn-primary,
@@ -7393,7 +7398,7 @@ a.btn-secondary:hover {
 ********************/
 .bundle {
   background: #e3e3e3;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   margin-bottom: 40px;
 }
 .bundle ul li {
@@ -7465,9 +7470,11 @@ a.btn-secondary:hover {
   background: #fff;
   padding-bottom: 20px;
   padding-top: 50px;
+  height: 290px;
 }
 .bundle-features ul {
   padding: 15px 15px 0 15px;
+  min-height: 150px;
 }
 .bundle-cta {
   margin: 0 20px;
