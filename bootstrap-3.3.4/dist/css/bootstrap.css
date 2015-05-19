@@ -7020,6 +7020,7 @@ button.close {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 414px;
 }
 h1 {
   text-align: center;
@@ -7204,6 +7205,13 @@ header {
 }
 #phone .accordion h4 {
   color: #19237e;
+}
+#phone .promo img {
+  max-width: 60px;
+}
+#phone .promo img.phone-icon {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
 /* Home Security */
 /* App Center */
