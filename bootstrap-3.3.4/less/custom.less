@@ -1,6 +1,5 @@
 /* My Custom Styles */
 
-
 /* Global */
 img {
 	display: block;
@@ -32,30 +31,62 @@ h3 span {
 	line-height: 1.5;
 	font-weight: normal;
 }
+/*
 hr {
 	margin-left: 15px;
 	margin-right: 15px;
 }
+*/
 header img  {
 		margin: 0;
 }
 header {
+	margin-bottom: 20px;
+}
+.legal-text {
+	font-size: 12px;
+	p:last-child {
+		text-align: center;
+		margin: 20px 0;
+	}
+}
+.compare-table p:last-child,
+.programming p:last-child,
+.promo p:last-child {
+	margin-bottom: 0;
+}
+.mybhn-promo {
 	margin-bottom: 40px;
 }
-#phone .promo {
-	ul {
-		text-align: center;
-		padding-left: 0;
-	}
-	li {
-		list-style: none;
-	}
+.panel-default .btn-primary {
+	margin-top: 15px;
 }
-
-
-#phone .well,
-#tv .well {
-	border-radius: 0;
+.secondary-text {
+font-size: 12px;	
+}
+.product-icon {
+	font-size: 13px;
+  font-weight: bold;
+	//padding-top: 10px;
+}
+.product-icon > p {
+	text-align: center;
+}
+.icon-grid p {
+	font-size: 12px; 
+	text-align: center;
+	margin: 0;
+}
+.icon-grid .block-grid-item {
+	padding: 0 0 5px 0;
+}
+.icon-grid .block-grid-item img {
+	vertical-align: top;
+	height: 25px;
+  margin-bottom: 5px;
+}
+.sports-packages img {
+	max-height: 80px; 
 }
 
 /* Navbar / Menu */
@@ -92,7 +123,6 @@ header {
 			max-width: 140px;
 		}
 }
-
 .nav > li:hover {
 		background-color: #19237e;
 }
@@ -103,46 +133,97 @@ header {
 	border-style: none;
 }
 
-footer {
-	background-color: #eeeeee;
-	padding-bottom: 40px;
-	margin-top: 20px;
-	
-	hr {
-		border: 1px solid #FFB300;
-		margin: 0 0 20px 0;
-	}
+/* Home */
+.support .glyphicon-earphone {
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
 }
-	.legal-text {
-		font-size: 12px;
-		p:last-child {
-			text-align: center;
-			margin: 20px 0;
-		}
-	}
+.product-grid img {
+	max-height: 90px;
+}
+
+/* Pay My Bill */
+
+/* Bundles */
+
+
+/* TV */
+#tv .well {
+	border-radius: 0;
+}
 #tv h4 {
 	margin-bottom: 5px;
 }
 #tv .panel-body {
 	background: #fff;
 }
-.compare-table p:last-child,
-.programming p:last-child,
-.promo p:last-child {
+
+
+/* Internet */
+#internet .panel-default {
+	border: none;
+	margin-top: 10px;
+}
+
+
+/* Phone */
+#phone .promo {
+	ul {
+		text-align: center;
+		padding-left: 0;
+	}
+	li {
+		list-style: none;
+	}
+}
+#phone .well {
+	border-radius: 0;
+}
+#phone header {
 	margin-bottom: 0;
 }
-/*
-.programming ,
-.compare-table,
-.links,
-.promo,
-.accordion, 
-.bundle {
-	margin-top: 20px;
-	margin-bottom: 20px;
+#phone .promo ul {
+	text-align: center;
+	list-style: none;
 }
-*/
+#phone .accordion .panel {
+	margin-bottom: 40px;
+}
+#phone .accordion p.panel-title,
+#tv .accordion .panel-title > a,
+#internet p.panel-title {
+	font-size: 13px;
+	color: #0091ff;
+}
+#phone .panel-body {
+	font-size: 12px;
+}
+#phone .accordion hr {
+	margin: 0 0 10px 0;
+	border-color: #19237e;
+}
+#phone .accordion h4 {
+	color: #19237e;
+}
 
+/* Home Security */
+
+/* App Center */
+
+/* Program Your Remote */
+
+/* Channel Lineups */
+
+/* WiFi Hotspots */
+
+/* Locations Map */
+
+
+
+
+/* Compare Table */
 thead {
 	background-color: #19237e;
 	color: White;
@@ -183,50 +264,24 @@ td {
 	}
 }
 
+
 /* Owl Carousel */
 #owl-demo {
-	margin:0 0 20px 0;	
+	margin: 0;	
 	.item img{
     display: block;
     width: 100%;
     height: auto;
 	}
 }
-#phone header {
-	margin-bottom: 0;
-}
-#phone .promo ul {
-	text-align: center;
-	list-style: none;
-}
-#phone .accordion .panel {
-	margin-bottom: 40px;
-}
-#phone .accordion p.panel-title,
-#tv .accordion .panel-title > a,
-#internet p.panel-title {
-	font-size: 13px;
-	color: #0091ff;
-}
-#phone .panel-body {
-	font-size: 12px;
-}
-#phone .accordion hr {
-	margin: 0 0 10px 0;
-	border-color: #19237e;
-}
-#phone .accordion h4 {
-	color: #19237e;
-}
 
-/* Custom BHN button styles 
+
+/* Custom BHN button styles */
 .btn-primary,
 .btn-primary-ol,
 .btn-secondary {
 	margin-bottom: 20px;
 }
-*/
-
 /* ------ Button Primary ------ */
 .btn-primary, .btn-primary:link,
 a.btn-primary:visited {
@@ -263,7 +318,6 @@ a.btn-primary:hover {
   /*-pie-background: linear-gradient(#fae062,#f8d44d);
   behavior: url(main/css/pie/PIE.htc);*/
 }
-
 /* ------ Button Primary Outline ------ */
 .btn-primary-ol, .btn-primary-ol:link,
 a.btn-primary-ol:visited {
@@ -286,7 +340,6 @@ a.btn-primary-ol:visited {
 a.btn-primary-ol:hover {
 	background: #ffb300;
 }
-
 /* ------ Button Secondary ------ */
 .btn-secondary,.btn-secondary:link,
 a.btn-secondary:visited {
@@ -324,6 +377,8 @@ a.btn-secondary:hover {
   behavior: url(main/css/pie/PIE.htc);
 }
 
+
+/* Price Point */
 .price-point {
   position:relative;
   font-size:24px;
@@ -335,6 +390,8 @@ a.btn-secondary:hover {
  	font-size: 12px;
  }
 
+
+/* Phone Pricing */
 .phone-price {
 	position: relative;
   font-size: 22px;
@@ -435,6 +492,9 @@ a.btn-secondary:hover {
 	margin: 0 20px;
 	margin-top: 20px;
 }
+
+
+/* Responsive Video Embed */
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -449,9 +509,6 @@ a.btn-secondary:hover {
 	height: 100%;
 }
 
-.mybhn-promo {
-	margin-bottom: 40px;
-}
 
 /* App Links */
 .app-links a + a {
@@ -484,39 +541,9 @@ div.app-links {
 .app-grid {
 	text-align: center;
 }
-.sports-packages img {
-	max-height: 80px; 
-}
 
 
-.panel-default .btn-primary {
-	margin-top: 15px;
-}
-.secondary-text {
-font-size: 12px;	
-}
-.product-icon {
-	font-size: 13px;
-  font-weight: bold;
-	//padding-top: 10px;
-}
-.product-icon > p {
-	text-align: center;
-}
-.icon-grid p {
-	font-size: 12px; 
-	text-align: center;
-	margin: 0;
-}
-.icon-grid .block-grid-item {
-	padding: 0 0 5px 0;
-}
-.icon-grid .block-grid-item img {
-	vertical-align: top;
-	height: 25px;
-  margin-bottom: 5px;
-}
-
+/* Packages */
 .packages hr {
 	margin: 10px 0;
 } 
@@ -526,7 +553,16 @@ font-size: 12px;
 .package-price {
 	margin: 20px 0 5px 0;
 }
-#internet .panel-default {
-	border: none;
-	margin-top: 10px;
+
+
+/* Footer */
+footer {
+	background-color: #eeeeee;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	
+	hr {
+		border: 1px solid #FFB300;
+		margin: 0 0 20px 0;
+	}
 }
