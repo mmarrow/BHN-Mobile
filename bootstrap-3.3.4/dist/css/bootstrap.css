@@ -7547,11 +7547,8 @@ div.app-links {
   padding-left: 5px;
   /* IE9 and below fix */
 }
-.app-grid .app-links a + a {
-  border: none;
-}
-.app-grid {
-  text-align: center;
+.app-grid div.row {
+  margin-bottom: 30px;
 }
 /* Packages */
 .packages hr {
