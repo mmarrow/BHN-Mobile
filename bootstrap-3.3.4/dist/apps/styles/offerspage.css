@@ -1,0 +1,536 @@
+/* New custom styles for BHN branding - JR
+-----------------------------------------------------------------------------------------------------------*/
+
+/*   New styles addded for the new offers page rlehman 2/13/2012   */
+
+
+/* Added ability for multiple line <p> tag content in listview buttons rlehman 5/7/2012   */
+.centerbuttonobjects {
+text-align: center; 
+margin:0px 10px;
+}
+
+.listviewcustom{
+overflow: visible !important; 
+white-space: normal !important;
+}
+
+.offerspagetitles{ /* new Button headline styles for offers landing page rlehman 5/7/2012   */
+color:#333333;
+font-size:23px;
+line-height:35px;
+}
+
+.offerspagebuttoncontent{ /* new Button content styles for offers landing page rlehman 5/7/2012   */
+font-weight:normal;
+color:#333333;
+font-size: 10.7px;
+line-height: 18px;
+white-space: normal;
+width:275px; 
+letter-spacing:-0.2px;
+}
+
+
+/* Offer styles for 3 offers on 1 page rlehman 5/7/2012   */
+.offerpagecontainer {
+margin:10px 10px 10px 10px;
+padding:10px 0px 10px 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+behavior: url("pie/PIE.htc.html");
+background: white;
+background-image:url("../images/container-bg.png");
+background-repeat:repeat-x;
+border:2px solid #999999;
+color:#333333;
+font-size: 12px;
+line-height: 16px;
+}
+
+.offerpagecontainer h1 {
+font-size: 29px;
+line-height: 16px;
+margin:-1px 0px 0px 0px;
+color:#053a8a;
+text-align:center;
+}
+
+.offerpagecontainer h1 span {
+font-size: 20px;
+line-height: 16px;
+font-weight:normal;
+}
+
+.offerpagecontainer h2 {
+font-size: 14px;
+line-height: 16px;
+color:#053a8a;
+margin:0px 0px 4px 0px;
+}
+
+
+/* Offer style for Business Solutions Banner rlehman 9/5/2012   */
+.double-line-header{
+font-size: 13px;
+line-height:17px;
+margin-top:-2px;
+}
+.double-line-copy{
+font-size: 12px;
+line-height:16px;
+margin-bottom:0px;
+}
+
+
+/* Offer styles for single offers on each page rlehman 5/7/2012   */
+.singleofferpagecontainer{
+margin:10px 10px 10px 10px;
+padding:10px 0px 10px 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+behavior: url("pie/PIE.htc.html");
+background: white;
+background-image:url("../images/container-bg-large.png");
+background-repeat:repeat-x;
+background-position:0px -38px;
+border:2px solid #999999;
+color:#333333;
+font-size: 12px;
+line-height: 16px;
+}
+
+.singleofferpagecontainer h1 {
+font-size: 15px;
+line-height: 24px;
+margin:-1px 0px 40px -8px; /* was -1px 0px 0px -8px */
+color:#053a8a; 
+text-align:center;
+text-shadow:none;
+}
+.singleofferpagecontainer h1 span {
+font-size: 16px;
+line-height: 22px;
+font-weight:normal;
+}
+.singleofferpagecontainer h1 .offer-disclaimer-large {
+font-size: 16px;
+line-height: 22px;
+font-weight:normal;
+}
+.singleofferpagecontainer h1 .offer-disclaimer-small {
+margin-top:3px;
+font-size: 12px;
+line-height: 12px;
+font-weight:normal;
+}
+.singleofferpage-content h2 {
+font-size: 16px;
+line-height: 16px;
+color:#053a8a;
+margin:10px 0px 4px 0px;
+}
+
+
+/* Offer styles for SPANISH single offers on each page rlehman 10/03/2012   */
+.singleofferpagecontainer-spanish{
+margin:10px 10px 10px 10px;
+padding:10px 0px 10px 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+behavior: url("pie/PIE.htc.html");
+background: white;
+background-image:url("../images/container-bg-large.png");  /*  was container-bg-large.png  */
+background-repeat:repeat-x;
+background-position:0px 0px; /* change 2nd value for height of yellow band  */
+border:2px solid #999999;
+color:#333333;
+font-size: 12px;
+line-height: 16px;
+}
+
+.singleofferpagecontainer-spanish h1 {
+font-size: 15px;
+line-height: 20px; /*  was 24px  */
+margin:-1px 0px 0px -8px;
+color:#053a8a; 
+text-align:center;
+text-shadow: none;
+}
+
+.singleofferpagecontainer-spanish h1 span {
+font-size: 18px;
+line-height: 24px;
+font-weight:normal;
+}
+
+
+
+
+/* Internal Content Offer styles rlehman 5/7/2012   */
+.singleofferpage-content { 
+margin:20px 0px 10px 0px;
+padding:0px 7px 0px 0px;
+text-align:left;
+border:1px solod red;
+}
+
+.singleofferpage-content ul {
+margin:0px 5px 0px -25px;
+color:#333333;
+font-size: 14px;
+line-height: 20px;
+}
+
+
+/* additional Offer styles rlehman 5/7/2012   */
+.offerpagelegalline{
+padding-right:20px;
+color:#666666;
+font-size: 12px;
+line-height: 16px;
+Margin-left:20px;
+}
+
+.offerpagetext{
+color:#666666;
+font-size: 16px;
+line-height: 19px;
+Margin-left:15px;
+}
+
+.clear {
+clear: both;
+display: block;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+height: 0;
+}
+
+.callusbtn {
+margin:0px 25px 0px 25px;
+
+font-size:14px;
+line-height:14px;
+}
+
+.callusbtn img { 
+margin:-10px 5px 0px -10px;
+position:relative;
+top:6px;
+}
+
+#callusbottom{
+/*   TBD   */
+}
+
+#callustop{
+/*   TBD   */
+}
+
+
+
+/* 3 offers side by side - Rlehman 2/9/2012  */
+.floatdiv3left { 
+margin:15px 0px 0px 0px;
+padding:0px 7px 0px 0px;
+width:32%;
+text-align:left;
+border-right:1px solid blue;
+float:left;
+}
+.floatdiv3 { 
+margin:15px 0px 0px 0px;
+padding:0px 7px 0px 7px;
+width:28%;
+text-align:left;
+border-right:1px solid blue;
+float:left;
+}
+.floatdiv3right { 
+margin:15px 0px 0px 0px;
+padding:0px 0px 0px 7px;
+width:27%;
+text-align:left;
+border-right:0px solid blue;
+float:left;
+}
+
+
+
+/* 2 offers side by side - Rlehman 2/9/2012  */
+.floatdiv2left { 
+margin:15px 0px 0px 0px;
+padding:0px 10px 0px 0px;
+width:46%;
+text-align:left;
+border-right:1px solid blue;
+float:left;
+}
+.floatdiv2right { 
+margin:15px 0px 0px 0px;
+padding:0px 0px 0px 15px;
+width:44%;
+text-align:left;
+border-right:0px solid blue;
+float:left;
+}
+
+
+
+/* New Offers Oredr Services page link styles - Rlehman 2/9/2012 */
+.offerpagecontainer a:link {
+color:green;
+font-weight:normal; 
+text-decoration:none;
+}
+
+.offerpagecontainer a:visited {
+color:green;
+text-decoration:none;
+}
+
+.offerpagecontainer a:hover {
+color:red;
+text-decoration:none;
+}
+
+
+
+
+/* New H style button - Rlehman 2/9/2012 */
+ 
+.ui-bar-h {
+	border: 1px solid 		#75990D;
+	background: 			#9ccd12;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#5c98c2), to(#3a6c9f)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #5c98c2, #3a6c9f); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #5c98c2, #3a6c9f); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #5c98c2, #3a6c9f); /* IE10 */
+	background-image:      -o-linear-gradient(top, #5c98c2, #3a6c9f); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #5c98c2, #3a6c9f);
+}
+.ui-bar-h,
+.ui-bar-h input,
+.ui-bar-h select,
+.ui-bar-h textarea,
+.ui-bar-h button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-h .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-h .ui-link 508b08
+.ui-body-h {
+	border: 1px solid 		#145072;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background: 			#faeb9e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#faeb9e)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fff, #faeb9e); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fff, #faeb9e); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fff, #faeb9e); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fff, #faeb9e); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fff, #faeb9e);
+}
+.ui-body-h,
+.ui-body-h input,
+.ui-body-h select,
+.ui-body-h textarea,
+.ui-body-h button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-body-h .ui-link-inherit 508b08
+.ui-body-h .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+
+.ui-btn-up-h {
+	border: 1px solid 		#145072;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#5c98c2), to(#3a6c9f)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #5c98c2, #3a6c9f); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #5c98c2, #3a6c9f); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #5c98c2, #3a6c9f); /* IE10 */
+	background-image:      -o-linear-gradient(top, #5c98c2, #3a6c9f); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #5c98c2, #3a6c9f);
+}
+.ui-btn-up-h a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-h {
+	border: 1px solid 		#145072;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3a6c9f), to(#5c98c2)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #3a6c9f, #5c98c2); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #3a6c9f, #5c98c2); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #3a6c9f, #5c98c2); /* IE10 */
+	background-image:      -o-linear-gradient(top, #3a6c9f, #5c98c2); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #3a6c9f, #5c98c2);
+}
+
+.ui-btn-hover-h a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-h {
+	border: 1px solid 		#145072;
+	background: 			#508b08;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3a6c9f), to(#5c98c2)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #3a6c9f, #5c98c2); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #3a6c9f, #5c98c2); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #3a6c9f, #5c98c2); /* IE10 */
+	background-image:      -o-linear-gradient(top, #3a6c9f, #5c98c2); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #3a6c9f, #5c98c2);
+}
+.ui-btn-down-h a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-h,
+.ui-btn-hover-h,
+.ui-btn-down-h {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* New "i" style button - for Business Solutions Banner - Rlehman 9/5/2012 */
+ 
+.ui-bar-i {
+	border: 1px solid 		#75990D;
+	background: 			#9ccd12;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#838383), to(#525151)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #838383, #525151); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #838383, #525151); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #838383, #525151); /* IE10 */
+	background-image:      -o-linear-gradient(top, #838383, #525151); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #838383, #525151);
+}
+.ui-bar-i,
+.ui-bar-i input,
+.ui-bar-i select,
+.ui-bar-i textarea,
+.ui-bar-i button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-i .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-i .ui-link 508b08
+.ui-body-i {
+	border: 1px solid 		#145072;
+	color: 					#fff;
+	text-shadow: 0 1px 0 	#000;
+	background: 			#faeb9e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#faeb9e)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fff, #faeb9e); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fff, #faeb9e); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fff, #faeb9e); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fff, #faeb9e); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fff, #faeb9e);
+}
+.ui-body-i,
+.ui-body-i input,
+.ui-body-i select,
+.ui-body-i textarea,
+.ui-body-i button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-body-i .ui-link-inherit 508b08
+.ui-body-i .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+
+.ui-btn-up-i {
+	border: 1px solid 		#145072;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#838383), to(#525151)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #838383, #525151); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #838383, #525151); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #838383, #525151); /* IE10 */
+	background-image:      -o-linear-gradient(top, #838383, #525151); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #838383, #525151);
+}
+.ui-btn-up-i a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-i {
+	border: 1px solid 		#145072;
+	background: 			#579809;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#838383), to(#525151)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #838383, #525151); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #838383, #525151); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #838383, #525151); /* IE10 */
+	background-image:      -o-linear-gradient(top, #838383, #525151); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #838383, #525151);
+}
+
+.ui-btn-hover-i a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-i {
+	border: 1px solid 		#145072;
+	background: 			#508b08;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px 	#000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#838383), to(#838383)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #838383, #525151); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #838383, #525151); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #838383, #525151); /* IE10 */
+	background-image:      -o-linear-gradient(top, #838383, #525151); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #838383, #525151);
+}
+.ui-btn-down-i a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-i,
+.ui-btn-hover-i,
+.ui-btn-down-i {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+
+/* New "j" styles for the new Tab header are in the custom.css file - Rlehman 10/10/2012 */
+
+
+
+
+
+
+
+
+
