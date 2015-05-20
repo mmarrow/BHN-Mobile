@@ -7053,6 +7053,10 @@ h3 span {
   line-height: 1.5;
   font-weight: normal;
 }
+.promo h3,
+.promo p {
+  text-align: center;
+}
 /*
 hr {
 	margin-left: 15px;
@@ -7159,6 +7163,7 @@ header {
   display: block;
   text-align: center;
   margin-bottom: 10px;
+  color: #737373;
 }
 .product-grid img {
   max-height: 90px;
@@ -7179,6 +7184,15 @@ header {
 #internet .panel-default {
   border: none;
   margin-top: 10px;
+}
+#internet .legal-text {
+  margin: 20px 0 0 0;
+}
+#internet .btn-primary {
+  margin: 0;
+}
+.packages {
+  margin-bottom: 20px;
 }
 /* Phone */
 #phone .promo ul {
